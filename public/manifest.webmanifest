@@ -1,0 +1,17 @@
+{
+  "name": "QDocs — ระบบเอกสารคุณภาพห้องปฏิบัติการ",
+  "short_name": "QDocs",
+  "description": "ระบบจัดการและเข้าถึงเอกสารคุณภาพห้องปฏิบัติการ",
+  "id": "./",
+  "start_url": "dashboard.php",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f4f7fb",
+  "theme_color": "#2563eb",
+  "lang": "th",
+  "icons": [
+    {"src":"assets/app-icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
+

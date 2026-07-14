@@ -39,6 +39,7 @@ if (!empty($u['lab_id'])) {
     .topbar{display:flex;justify-content:space-between;align-items:center;gap:10px}
     .badge{display:inline-block;padding:3px 8px;border-radius:999px;font-size:12px;border:1px solid #ddd;background:#fafafa}
   </style>
+  <?php require __DIR__ . '/../includes/pwa_head.php'; ?>
 </head>
 <body>
   <div class="wrap">
@@ -92,5 +93,6 @@ if (!empty($u['lab_id'])) {
     <?php endif; ?>
 
   </div>
+<?php require __DIR__ . '/../includes/pwa_footer.php'; ?>
 </body>
 </html>

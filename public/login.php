@@ -76,6 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     .muted{color:#666;font-size:13px;margin-top:10px}
     h1{font-size:18px;margin:0 0 10px}
   </style>
+  <?php require __DIR__ . '/../includes/pwa_head.php'; ?>
 </head>
 <body>
   <div class="card">
@@ -99,5 +100,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       * ผู้ใช้แต่ละ LAB จะเห็นเฉพาะข้อมูลของ LAB ตัวเอง
     </div>
   </div>
+<?php require __DIR__ . '/../includes/pwa_footer.php'; ?>
 </body>
 </html>

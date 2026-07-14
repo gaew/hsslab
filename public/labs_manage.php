@@ -95,6 +95,7 @@ $labs = $pdo->query("SELECT id, lab_code, lab_name, is_active, created_at
     .topbar{display:flex;justify-content:space-between;align-items:center;gap:10px}
     .muted{color:#666;font-size:13px;line-height:1.5}
   </style>
+  <?php require __DIR__ . '/../includes/pwa_head.php'; ?>
 </head>
 <body>
   <div class="wrap">
@@ -200,5 +201,6 @@ $labs = $pdo->query("SELECT id, lab_code, lab_name, is_active, created_at
     </div>
 
   </div>
+<?php require __DIR__ . '/../includes/pwa_footer.php'; ?>
 </body>
 </html>

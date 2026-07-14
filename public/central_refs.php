@@ -474,6 +474,7 @@ $paginationItems = compact_pagination($page, $totalPages);
     .title{font-size:18px}
   }
 </style>
+<?php require __DIR__ . '/../includes/pwa_head.php'; ?>
 </head>
 <body>
 <div class="wrap">
@@ -636,5 +637,6 @@ $paginationItems = compact_pagination($page, $totalPages);
   <?php endif; ?>
 
 </div>
+<?php require __DIR__ . '/../includes/pwa_footer.php'; ?>
 </body>
 </html>

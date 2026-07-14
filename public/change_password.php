@@ -62,7 +62,8 @@ button{margin-top:16px;padding:10px 14px;border:0;border-radius:10px;cursor:poin
 .ok{background:#f0fff4;border:1px solid #b7ebc6;color:#14532d;padding:10px;border-radius:10px;margin-bottom:12px}
 .err{background:#fff2f2;border:1px solid #ffd0d0;color:#9b1c1c;padding:10px;border-radius:10px;margin-bottom:12px}
 a{color:#0b57d0;text-decoration:none}
-</style>
+  </style>
+  <?php require __DIR__ . '/../includes/pwa_head.php'; ?>
 </head>
 <body>
 <div class="wrap">
@@ -89,5 +90,6 @@ a{color:#0b57d0;text-decoration:none}
     <p><a href="dashboard.php">← กลับ Dashboard</a></p>
   </div>
 </div>
+<?php require __DIR__ . '/../includes/pwa_footer.php'; ?>
 </body>
 </html>

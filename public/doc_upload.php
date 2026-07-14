@@ -184,7 +184,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     a{color:#0b57d0;text-decoration:none}
     .topbar{display:flex;justify-content:space-between;align-items:center}
     .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-  </style>
+</style>
+<?php require __DIR__ . '/../includes/pwa_head.php'; ?>
 </head>
 <body>
 <div class="wrap">
@@ -248,5 +249,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </form>
   </div>
 </div>
+<?php require __DIR__ . '/../includes/pwa_footer.php'; ?>
 </body>
 </html>

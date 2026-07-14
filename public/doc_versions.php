@@ -61,6 +61,7 @@ $vers = $stmt->fetchAll();
     .muted{color:#666;font-size:13px}
     a{color:#0b57d0;text-decoration:none}
   </style>
+  <?php require __DIR__ . '/../includes/pwa_head.php'; ?>
 </head>
 <body>
 <div class="wrap">
@@ -125,5 +126,6 @@ $vers = $stmt->fetchAll();
     </table>
   </div>
 </div>
+<?php require __DIR__ . '/../includes/pwa_footer.php'; ?>
 </body>
 </html>

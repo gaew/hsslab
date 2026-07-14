@@ -188,6 +188,7 @@ if (!move_uploaded_file($tmp, $destPath)) {
   .err{background:#fff2f2;border:1px solid #ffd0d0;color:#9b1c1c;padding:10px;border-radius:12px;margin-bottom:12px}
   .muted{color:var(--muted);font-size:13px;line-height:1.5}
 </style>
+<?php require __DIR__ . '/../includes/pwa_head.php'; ?>
 </head>
 <body>
 <div class="wrap">
@@ -261,5 +262,6 @@ if (!move_uploaded_file($tmp, $destPath)) {
     </form>
   </div>
 </div>
+<?php require __DIR__ . '/../includes/pwa_footer.php'; ?>
 </body>
 </html>

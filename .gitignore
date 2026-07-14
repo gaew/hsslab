@@ -1,15 +1,38 @@
+# Dependencies
 /vendor/
 /node_modules/
 
+# Runtime data and user uploads
+/storage/*
+!/storage/.gitkeep
+
+# Logs, caches, and temporary files
 *.log
 *.tmp
+*.temp
 *.cache
+*.swp
+*~
 
-storage/logs/*
-storage/cache/*
-
+# Local configuration and secrets
 .env
+.env.*
+!.env.example
 config.local.php
+config/*.local.php
+auth.json
 
+# Test and analysis output
+/coverage/
+/.phpunit.cache/
+/.phpunit.result.cache
+/.php-cs-fixer.cache
+
+# IDE and operating-system files
+/.idea/
+/.vscode/
+*.suo
+*.user
 Thumbs.db
+Desktop.ini
 .DS_Store

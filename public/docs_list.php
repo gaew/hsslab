@@ -103,6 +103,7 @@ button,.btn{border:0;border-radius:14px;padding:12px 16px;font-size:15px;cursor:
 .version{font-size:13px;color:#667085}
 .empty{padding:20px;border:1px dashed #d0d5dd;border-radius:16px;color:#667085;background:#fafafa}
 </style>
+<?php require __DIR__ . '/../includes/pwa_head.php'; ?>
 </head>
 <body>
 <div class="wrap">
@@ -197,5 +198,6 @@ button,.btn{border:0;border-radius:14px;padding:12px 16px;font-size:15px;cursor:
   <?php endforeach; ?>
 
 </div>
+<?php require __DIR__ . '/../includes/pwa_footer.php'; ?>
 </body>
 </html>

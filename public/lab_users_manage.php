@@ -143,6 +143,7 @@ $users = $stmt->fetchAll();
     .btn-off{background:#fee2e2}
     .btn-on{background:#dcfce7}
   </style>
+  <?php require __DIR__ . '/../includes/pwa_head.php'; ?>
 </head>
 <body>
   <div class="wrap">
@@ -271,5 +272,6 @@ $users = $stmt->fetchAll();
     </div>
 
   </div>
+<?php require __DIR__ . '/../includes/pwa_footer.php'; ?>
 </body>
 </html>
