@@ -1,0 +1,15 @@
+/vendor/
+/node_modules/
+
+*.log
+*.tmp
+*.cache
+
+storage/logs/*
+storage/cache/*
+
+.env
+config.local.php
+
+Thumbs.db
+.DS_Store
